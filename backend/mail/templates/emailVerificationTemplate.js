@@ -69,11 +69,11 @@ const otpTemplate = (otp, name) => {
 	<body>
 		<div class="container">
 			<a href=""><img class="logo"
-					src="https://i.ibb.co/GnnBrDN/Logo-Full-Dark.png" alt="EduGlow Logo"></a>
+					src="hhttps://i.ibb.co/D18jycH/Logo-Full-Light.png" alt="WebMine Logo"></a>
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear ${name}</p>
-				<p>Thank you for registering with EduGlow. To complete your registration, please use the following OTP
+				<p>Thank you for registering with WebMine. To complete your registration, please use the following OTP
 					(One-Time Password) to verify your account:</p>
 				<h2 class="highlight">${otp}</h2>
 				<p>This OTP is valid for 3 minutes. If you did not request this verification, please disregard this email.
