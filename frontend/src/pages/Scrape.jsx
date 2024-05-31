@@ -49,7 +49,7 @@ function Main() {
         setTimeout(() => setLoadingMessage('Displaying...'), 42000);
 
         try {
-            const response = await fetch(`http://localhost:8000/scrape_details?product_link=${encodeURIComponent(url)}&website=${website}&num_reviews=${numReviews}`);
+            const response = await fetch(`https://webmine-backend-python.onrender.com/scrape_details?product_link=${encodeURIComponent(url)}&website=${website}&num_reviews=${numReviews}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch reviews');
             }
